@@ -1,0 +1,23 @@
+extends layout.pug 
+
+block content
+  .container
+        h1 Update the spending
+
+        if error 
+            p.error Empty string can not be created 
+        if success 
+            p.success Created successfully!
+        form.form(action="/update" method='PUT')
+            label Title 
+            input.input(type="text" name='Title')
+
+
+            label Description 
+            textarea.input(name="Description", type='text')
+
+            label Timestamp 
+
+            input.input(type="date" href='dateBought' name='dateTime')
+
+            button.btnUpdate Update

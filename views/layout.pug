@@ -1,0 +1,14 @@
+doctype html
+html(lang='en')
+    head
+        title Spendings app
+        link(rel='stylesheet', href='/static/styles.css')
+        script(src="/static/script.js" defer) 
+    body 
+        header.navbar 
+            h1  
+                a(href='/') Spendings App 
+            nav.nav
+                a(href='/spendings') All Spendings
+                a(href='/archive') Archives 
+        block content 

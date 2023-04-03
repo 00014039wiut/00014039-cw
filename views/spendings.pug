@@ -1,0 +1,12 @@
+extends layout.pug 
+
+block content 
+    div.container 
+        h1 All spendings
+
+        each spending in spendings
+            div.spending-wrapper
+                a.spending(href=`/spendings/${spending.id }`) #{ spending.Title }
+                button.update-btn(data-id= spending.id) Update
+                a.delete(href=`/${ spending.id }/delete`) Delete
+                

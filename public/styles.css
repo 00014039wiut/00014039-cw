@@ -1,0 +1,143 @@
+html{
+    font-size: 18px;
+   
+}
+
+*{
+    font-family: 'Times New Roman', Times, serif; 
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    background-color: white;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 0 auto;
+    max-width: 1000px;
+    border-bottom: 1px dotted;
+}
+.nav a{ display: inline-block;
+    padding: 10px 30px;
+
+   
+}
+.navbar .nav a{
+    font-size: 20px;
+    color: darkslategray;
+}
+a:hover{
+    color:  darkorange;
+    
+}
+.navbar h1 a {
+    font-size: 50px
+}
+
+a{
+    text-decoration: none;
+    padding-right: 10px;
+    color: darkslategray;
+}
+a:hover{
+    color:  darkorange;
+}
+
+.navbar.nav a {
+    text-decoration: none;
+}
+
+/* Home pug designing*/
+.container{
+    color: darkslategray;
+    max-width: 1200px;
+    margin: 100px 180px;
+
+}
+.definition{
+    font-family: 'Times New Roman', Times, serif;
+    display: inline-block
+    padding-left 30px;
+    max-width: 60%;
+}
+.button{
+    display: inline-block;
+    background-color: blue;
+    color: aliceblue;
+    padding: 15px 25px ;
+    margin-top: 20px;
+    font-size: 25px;
+}
+/* Design of Creation Page*/
+.form {
+width: 60%;
+}
+.input{
+display: block;
+padding: 12px;
+margin: 0;
+margin-top: 8px;
+font-size: 1.8rem;
+border: 1px solid;
+max-width: 60%;
+}
+.btn{
+    display: inline-block ;
+    background-color: blue;
+    color: white;
+    margin-top: 5px;
+    padding: 18px 40px;
+    font-size: 20px;
+
+}
+label{
+    font-size: 30px;
+}
+/* Spendings list styles*/
+.spending-wrapper{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px;
+max-width: 75%;
+border-bottom: 1px solid #ccc ;
+
+}
+.spending{
+font-size: 1.3rem;
+}
+button.btnUpdate{
+    padding: 5px 10px;
+    background-color:yellowgreen;
+    color: white;
+    display: inline-block;
+    text-align: center;
+    margin-left: 550px;
+    position:fixed
+
+}
+.delete{
+    padding: 5px 10px;
+    background-color: tomato;
+    color: white;
+    display:inline-block;
+    text-align: center;
+
+}
+
+
+.error{
+    display: inline-block ;
+    padding: 10px;
+    border: 1px solid tomato;
+    font-size: 1.2rem;
+    color: red;
+} 
+.success{
+    display: inline-block ;
+    padding: 10px;
+    border: 1px solid green;
+    font-size: 1.2rem;
+    color: greenyellow;
+}
